@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="202.0" prefWidth="403.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SizeAskController">
+   <children>
+      <TextField fx:id="rows" layoutX="170.0" layoutY="62.0" promptText="min 5, max 17" />
+      <TextField fx:id="columns" layoutX="170.0" layoutY="101.0" promptText="min 10, max 30" />
+      <Label layoutX="47.0" layoutY="61.0" prefHeight="26.0" prefWidth="103.0" text="Number of rows:">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="100.0" prefHeight="26.0" prefWidth="119.0" text="Number of columns:">
+         <font>
+            <Font name="System Italic" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="enter" layoutX="150.0" layoutY="144.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="103.0" text="Enter">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
